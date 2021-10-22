@@ -1,0 +1,95 @@
+$text-color:hsl(0, 0%, 100%);
+
+@media screen and (min-width:1000px){
+  .desktop-a {
+    color:$text-color;
+    margin: 0 5px;
+  }
+
+  .dropdown-item{
+    color:hsl(208, 49%, 24%);
+  }
+
+  .mobile-menu{
+    display:none !important;
+  }
+  .mobile-hamburger{
+    display:none;
+  }
+
+  .navbar{
+    display:block;
+    flex-direction: row;
+
+    .dropdown{
+      display:inline-block;
+    }
+  }
+  .desktop-link{
+    display:block;
+  }
+
+  .section{
+    padding:50px;
+  }
+
+  .flex-mobile{
+    flex-direction: row;
+    justify-content: space-between;
+
+    .img-div{
+      padding:20px;
+      min-height:200px;
+      width:80%;
+    }
+
+    .flex-mobile{
+      width:80%;
+      justify-content: space-between;
+    }
+
+  }
+
+  .flex-end-image{
+    flex-direction:row-reverse;
+
+    .desktop-flex{
+      width:80%;
+    }
+  }
+
+  .flex-item{
+
+    h2, p{
+      text-align:justify;
+    }
+  }
+
+  #editor, #phones, #laptop{
+    background-size:contain;
+    background-repeat:no-repeat;
+  }
+
+  #phones{
+    height:300px;
+  }
+
+  #blue-background .img-div{
+    transform: none;
+  }
+
+  .footer-flex{
+    flex-direction: row;
+    justify-content: space-around;
+
+    .footer-flex-item{
+      align-items: flex-start;
+    }
+
+    .footer-ul{
+      li{
+        text-align: left;
+      }
+    }
+  }
+}

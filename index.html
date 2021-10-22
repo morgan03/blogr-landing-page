@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="heading">
+
+      <div class="d-flex flex-row justify-content-between menu">
+        <div class="d-flex flex-row">
+          <div class="">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <nav class="navbar">
+            <div class="dropdown show">
+              <a class="dropdown-toggle nav-a desktop-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Overview</a>
+                <a class="dropdown-item" href="#">Pricing</a>
+                <a class="dropdown-item" href="#">Marketplace</a>
+                <a class="dropdown-item" href="#">Features</a>
+                <a class="dropdown-item" href="#">Integrations</a>
+              </div>
+            </div>
+
+            <div class="dropdown show">
+              <a class="dropdown-toggle nav-a desktop-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Company
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">About</a>
+                <a class="dropdown-item" href="#">Team</a>
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Careers</a>
+              </div>
+            </div>
+
+            <div class="dropdown show">
+              <a class="dropdown-toggle nav-a desktop-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Connect
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Contact</a>
+                <a class="dropdown-item" href="#">Newsletter</a>
+                <a class="dropdown-item" href="#">LinkedIn</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="desktop-link">
+          <a class="desktop-a" href="#">Login</a>
+          <button class="btn btn-primary head-btn head-1" id="signup-btn" type="button" name="button">Sign Up</button>
+        </div>
+        <div class="mobile-hamburger open">
+
+        </div>
+      </div>
+      <div class="flex-item" id="heading-content">
+        <h1 id="maintitle-heading">A modern publishing platform</h1>
+        <p class="p-text">Grow your audience and build your online brand.</p>
+      </div>
+      <div class="flex-item" id="heading-btn">
+        <button class="btn btn-primary head-btn head-1" type="button" name="button">Start For Free</button>
+        <button class="btn btn-primary head-btn" id="head-2" type="button" name="button">Learn More</button>
+      </div>
+
+      <div class="mobile-menu hide-item">
+        <div class="d-flex flex-column align-items-center">
+          <input type="radio" name="product" value="" id="section-product" class="section__accordion">
+          <label class="mobile_label dropdown-toggle" id="label-product" for="section-product">Product</label>
+          <div class="section__content d-flex flex-column align-items-center hide-item" id="content-product">
+            <ul>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Intergrations</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+          <input type="radio" name="product" value="" id="section-company" class="section__accordion">
+          <label class="mobile_label dropdown-toggle" id="label-company" for="section-company">Company</label>
+          <div class="section__content d-flex flex-column align-items-center hide-item" id="content-company">
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+          <input type="radio" name="product" value="" id="section-connect" class="section__accordion">
+          <label class="mobile_label dropdown-toggle" id="label-connect" for="section-connect">Connect</label>
+          <div class="section__content d-flex flex-column align-items-center hide-item" id="content-connect">
+            <ul>
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="d-flex flex-column">
+        <div class="flex-item">
+          <h2>Designed for the future</h2>
+        </div>
+        <div class="flex-mobile flex-end-image">
+          <div class="img-div" id="editor">
+
+          </div>
+          <div class="desktop-flex">
+            <div class="flex-item">
+              <h2 class="subtitle-text">Introducing an extensible editor</h2>
+              <p class="p-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.</p>
+            </div>
+            <div class="flex-item">
+              <h2 class="subtitle-text">Robust content management</h2>
+              <p class="p-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog
+                by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section"  id="blue-background">
+      <div class="flex-mobile" id="circles">
+        <div class="img-div" id="phones">
+          <!-- image should be here -->
+        </div>
+        <div class="flex-item">
+          <h2 class="subtitle-text">State of the Art Infrastructure</h2>
+          <p class="p-text">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="flex-mobile">
+        <div class="img-div" id="laptop">
+          <!-- image should be here -->
+        </div>
+        <div class="flex-mobile">
+          <div class="d-flex flex-column desktop-flex">
+            <div class="flex-item">
+              <h2 class="subtitle-text">Free, open, simple</h2>
+              <p class="p-text">Blogr is a free and open source application backed by a large community of helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+            </div>
+            <div class="flex-item">
+              <h2>Powerful tooling</h2>
+              <p class="p-text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-flex">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <div class="">
+          <div class="footer-flex-item">
+            <div class="">
+              <h4>Product</h4>
+            </div>
+            <div class="">
+              <ul class="footer-ul">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Intergrations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="footer-flex-item">
+            <div class="">
+              <h4>Company</h4>
+            </div>
+            <div class="">
+              <ul class="footer-ul">
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="footer-flex-item">
+            <div class="">
+              <h4>Connect</h4>
+            </div>
+            <div class="">
+              <ul class="footer-ul">
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

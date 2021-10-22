@@ -1,0 +1,81 @@
+$header-color:hsl(208, 49%, 24%);
+
+.section{
+  padding:10px;
+}
+
+
+#blue-background{
+  display:inline-block;
+  margin-top:80px;
+  background-color:hsl(237, 17%, 21%);
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  padding-bottom:40px;
+
+  h2, p{
+    color:hsl(0, 0%, 100%);
+  }
+
+  .img-div{
+    transform: translateY(-100px);
+  }
+}
+
+.flex-item{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2, p{
+    text-align: center;
+  }
+
+  h2{
+    color:$header-color;
+    font-size:30px;
+    padding: 10px 5px;
+    font-weight:600;
+  }
+  .p-text{
+    padding:5px;
+    font-size:16px;
+    font-weight: 400;
+  }
+}
+
+#circles{
+  background: url("../images/bg-pattern-circles.svg");
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flex-mobile{
+  display:flex;
+  flex-direction: column;
+
+  .img-div{
+    min-height:350px;
+    margin: 20px 0;
+
+  }
+}
+
+#editor{
+  background:url("../images/illustration-editor-mobile.svg");
+  background-size:cover;
+  background-position: center;
+}
+
+#phones{
+  background:url("../images/illustration-phones.svg");
+  background-size:cover;
+  background-position: center;
+}
+
+#laptop{
+  background:url("../images/illustration-laptop-mobile.svg");
+  background-size:cover;
+  background-position: center;
+}

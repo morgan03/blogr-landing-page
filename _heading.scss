@@ -1,0 +1,126 @@
+$heading-background:hsl(356, 100%, 66%);
+$text-color:hsl(0, 0%, 100%);
+
+.dropdown-toggle::after{
+  margin:auto;
+}
+
+.heading{
+  color:$text-color;
+  padding:40px 10px 10px 10px;
+  margin-bottom:50px;
+  border-bottom-left-radius: 80px;
+  min-height: 50vh;
+  background:url("../images/bg-pattern-intro.svg") $heading-background;
+  background-size: cover;
+
+  #maintitle-heading{
+    text-align: center;
+  }
+
+  #heading-btn{
+    flex-direction:row;
+    justify-content: center;
+
+    .head-btn{
+      margin:5px 5px 80px 5px;
+      padding:10px 15px;
+      border-radius: 20px;
+      border-color: $text-color;
+    }
+
+    #head-2{
+      background-color: $heading-background;
+      color:$text-color;
+      font-weight:400;
+    }
+  }
+
+  .menu{
+    padding:10px;
+    margin-bottom:50px;
+  }
+}
+
+.head-1{
+  background-color: $text-color;
+  color:$heading-background;
+  font-weight:600;
+}
+
+#signup-btn{
+  border-radius: 20px;
+  border-color: $text-color;
+}
+
+.head-1:hover{
+  background-color: $heading-background;
+}
+
+.navbar{
+  display:none;
+}
+
+.desktop-link{
+  display:none;
+}
+
+.mobile-hamburger{
+  background:url("../images/icon-hamburger.svg");
+  cursor:pointer;
+  width:25px;
+  height:18px;
+}
+
+.open{
+
+}
+
+.close{
+
+}
+
+.hide-item{
+  display:none !important;
+}
+
+.mobile-menu{
+  margin-bottom:60px;
+  background-color:$text-color;
+  color:hsl(208, 49%, 24%);
+  border-radius:5px;
+  padding:10px;
+}
+
+.section__accordion{
+  display:none;
+}
+
+.mobile_label, .section__content{
+  padding:5px 10px;
+}
+
+.mobile_label{
+  cursor: pointer;
+  display:block;
+}
+
+.accordion__input:checked ~ .hide-item{
+  display:block;
+}
+
+
+.section__content{
+  width:100%;
+  background-color: hsl(240, 2%, 79%);
+  border-radius: 5px;
+  font-weight:500;
+
+
+
+  ul{
+    li{
+      list-style-type: none;
+    }
+  }
+}

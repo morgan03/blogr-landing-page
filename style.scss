@@ -1,0 +1,24 @@
+@import 'heading';
+@import 'sections';
+@import 'footer';
+@import 'desktop'; 
+
+$main-background:hsl(237, 17%, 21%);
+$main-font-family:'Overpass', sans-serif;
+$second-font-family: 'Ubuntu', sans-serif;
+$font-size:16px;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(0, 0%, 100%);
+  font-family: $main-font-family;
+}
+
+.attribution{
+  color:hsl(0, 0%, 100%);
+}
