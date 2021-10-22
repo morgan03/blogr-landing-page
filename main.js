@@ -1,5 +1,5 @@
-mobileMenuIcon = document.querySelector(".mobile-hamburger");
-mobileMenuItems = document.querySelectorAll(".mobile_label");
+const mobileMenuIcon = document.querySelector(".mobile-hamburger");
+const mobileMenuItems = document.querySelectorAll(".mobile_label");
 
 mobileMenuItems.forEach((item) => item.addEventListener("click", expandMenuItems));
 mobileMenuIcon.addEventListener("click", expandMenu);
